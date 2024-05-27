@@ -16,7 +16,6 @@ document.getElementById('enable').addEventListener('click', () => {
                     set_youtube_video_controls_hidden(true);
                 }
 
-                function get_video() {}
                 document.body.addEventListener('mouseenter', mouseenter_cb);
                 document.body.addEventListener('mouseleave', mouseleave_cb);
                 window.remove_youtube_event_listeners = function() {
